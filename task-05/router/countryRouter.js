@@ -1,5 +1,9 @@
 const carController = require('../controller/countryController');
 
+// Célszerűbb lett volna countryController-nek nevezni, a carController-t,
+// de a kapott kódon nem akartam változtatni.
+
+
 /**
  * 1. Készíts egy router objektumot, ami a get kulcsnál meghívja a carController 
  * getAll nevű metódusát és string típusként visszaadja az adatok tömbjét.
