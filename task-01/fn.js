@@ -15,7 +15,7 @@ const get = (list = [], id = 0) => {
  * @returns a létrehozott, beszúrt és id -vel ellátott objektum
  */
 const create = (list = [], entity = null) => {
-    entity.id = list[list.length - 1] + 1;
+    entity.id = list[list.length - 1].id + 1;
     list.push(entity);
     return entity;
 };
